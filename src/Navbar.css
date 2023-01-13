@@ -1,0 +1,31 @@
+.Nav
+{
+    height: 40px;
+    text-align: right;
+    margin-top: 1.5%;
+}
+a
+{
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 1%;
+    margin-left: 2%;
+    border-radius: 10%;
+    margin-top: 10%;
+    padding:20px ;
+
+}
+ a:hover
+{
+    font-weight: bolder;
+    background-color: rgb(54, 71, 223);
+    color: white;
+    animation-name: BlueBack;
+    animation-duration: 1s;    
+} 
+@keyframes BlueBack {
+    from {background-color:white;}
+    to {background-color: rgb(54, 71, 223);}
+}
+  
+
