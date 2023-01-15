@@ -1,2 +1,0 @@
-# dscgits
-GDSC GITS website
