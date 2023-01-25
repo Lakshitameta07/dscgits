@@ -1,0 +1,75 @@
+.contact-form
+{
+    text-align: center;
+}
+
+.contact-form #head
+{
+    padding-top: 50%;
+    margin: auto;
+    font-weight: bold;
+    color:rgb(12, 91, 44);
+    font-size: 40px;
+}
+
+.contact-form #span1
+{
+    font-weight: lighter;
+    
+}
+
+.c-right
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.c-right>form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5rem;
+    align-items: center;
+}
+
+.c-right>#faq
+{
+    width:auto;
+    align-items: flex-end;
+    margin-top: 10%;
+    margin-bottom: -7rem;
+}
+
+.c-right .user
+{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3rem;
+    outline: none;
+    border: 2px solid #5e85f1fb;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+textarea
+{
+    height: 4rem!important;
+}
+
+@media screen and (max-width:200px) {
+    .contact-form
+    {
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height:40rem;
+    }
+    .c-right .user
+    {
+        width: 16rem;
+        height: auto;
+    }
+}

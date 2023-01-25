@@ -1,0 +1,55 @@
+.Team{
+    text-align: center;
+}
+
+.Team #teams
+{
+    padding-top: 5%;
+    font-weight: bold;
+    color:rgb(12, 91, 44);
+    font-size: 40px;
+}
+
+.core-team
+{
+    text-align: center;
+    margin-top: 25rem;
+}
+
+.core-team #core
+{
+    padding-top: 5%;
+    font-weight: bold;
+    color:rgb(12, 91, 44);
+    font-size: 40px;
+}
+
+.cards>*
+{
+    position: absolute;
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+    .Team
+    {
+       margin-top: 0;
+       flex-direction: column;
+       gap: 5rem;
+       height: 66rem;
+       padding: 0;
+    }
+    .cards
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+    }
+
+    .cards>*
+    {
+        position: static;
+    }
+}
