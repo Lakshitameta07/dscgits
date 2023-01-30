@@ -1,0 +1,74 @@
+.toggle
+{
+    display: flex;
+    justify-content: flex-end;
+    border: 1.8px solid gainsboro;
+    border-radius: 1rem;
+    gap: .7rem;
+    position: relative;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.toggle:hover
+{
+    box-shadow: 0px 0px 2px blanchedalmond;
+}
+
+.toggle>*
+{
+   width: 1rem;
+   height: 1rem;
+   color: orange; 
+}
+
+.toggle #sun:hover{
+   
+    animation-name: spin ;
+    animation-duration: 1.5s;
+}
+
+
+.toggle #moon:hover
+
+{
+  animation-name: glow;
+  animation-duration: 1s;
+}
+
+@keyframes spin {
+
+    from{
+      transform: rotate(0deg);
+    } 
+    to{
+      transform: rotate(360deg);
+    } 
+  }
+
+  @keyframes glow
+  {
+    from
+    {
+        transform: rotate(60deg);
+    }
+    to
+    {
+        transform: rotate(0deg);
+    }
+  }
+
+.t-button
+{
+    border-radius: 100%;
+    background: white;
+    opacity: 10%;
+    position: absolute;
+}
+@media screen and (max-width:480px)
+{
+   .toggle
+   {
+     margin-left: -3rem;
+   }
+}

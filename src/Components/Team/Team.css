@@ -1,0 +1,58 @@
+.Team{
+    text-align: center;
+    flex-direction: row;
+}
+
+
+.core-team
+{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.core-team #core
+{
+    padding-top: 5%;
+    font-weight: bold;
+    color:rgb(12, 91, 44);
+    font-size: 40px;
+}
+
+.core-card
+{ 
+    display: flex;
+    margin-bottom: -20rem;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.core-card2
+{ 
+    display: flex;
+    margin-top: 21rem;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.core-card3
+{ 
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+}
+
+@media screen and (max-width: 480px)
+{
+    .Team
+    {
+       margin-top: 0;
+       flex-direction: column;
+       gap: 5rem;
+       height: 66rem;
+       padding: 0;
+    }
+}

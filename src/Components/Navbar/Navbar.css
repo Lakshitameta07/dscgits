@@ -1,0 +1,76 @@
+.nav
+{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head
+{
+  font-size: medium;
+  flex-direction: row;
+  color: #292424;
+  text-align: center;
+  margin-left: 4rem;
+  margin-top: -3rem;
+}
+
+.h-span
+{
+  font-size: small;
+  font-weight: normal;
+  color: gray;
+  text-align: center;
+  margin-left: 4rem;
+}
+
+.logo
+{
+  margin-top: 15px;
+  width: 45px;
+  height:45px;
+}
+
+.n-buttn {
+  flex: 2;
+}
+
+.n-list {
+  flex: 10;
+}
+
+.n-list > ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+@media screen  and (max-width : 480px)
+{
+  .n-list
+  {
+    display: none;
+  }
+  .n-buttn
+  {
+    display: none;
+  }
+  
+  .head
+  {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: -2rem;
+  }
+
+  .h-span
+  {
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: -1rem;
+  }
+}
